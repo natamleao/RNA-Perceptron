@@ -5,10 +5,6 @@
 ![Status](https://img.shields.io/badge/Project-Academic-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-<p align="center">
-  <img src="https://i.imgur.com/jFXlHBs.png" width="450">
-</p>
-
 ## Sobre o projeto
 
 Este projeto apresenta a implementação de uma **Rede Neural Artificial do tipo Perceptron**, proposta por [Frank Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt) em 1958.
@@ -18,7 +14,7 @@ O perceptron é um dos primeiros modelos de neurônio artificial e constitui a b
 - [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning)
 - [Artificial Neural Networks](https://en.wikipedia.org/wiki/Artificial_neural_network)
 
-O objetivo deste projeto é demonstrar, de forma didática e modular, o funcionamento de um perceptron através de:
+O objetivo deste projeto é demonstrar o funcionamento de um perceptron através de:
 
 - geração de datasets
 - treinamento supervisionado
@@ -62,7 +58,7 @@ Também demonstra a limitação clássica do perceptron ao tentar aprender o pro
 
 ### Treinamento do Perceptron – classificação de regiões
 
-O GIF mostra o treinamento do perceptron para classificar regiões como Norte (1) ou Sul (-1).  
+O GIF mostra o treinamento do perceptron para classificar regiões como Norte (1) ou Sul (-1) com base em latitude e longitude.  
 Como os dados não são linearmente separáveis, pontos verdes são corretos e vermelhos estão incorretos; a linha azul é a fronteira de decisão.
 
 <p align="center">
@@ -88,7 +84,7 @@ Isso permite visualizar como o perceptron separa as classes no espaço de caract
 ## Estrutura do projeto
 
 ```
-project/
+RNA-Perceptron/
 │
 ├── data/
 │ ├── raw/ # datasets gerados
@@ -146,12 +142,12 @@ pip install -r requirements.txt
 Execute o pipeline completo:
 
 ```
-python src/main.py
+python -m src.main
 ```
 
 ou
 ```
-chmod +x /scripts/run_perceptron.sh
+chmod +x scripts/run_perceptron.sh
 ```
 
 ```
@@ -187,6 +183,5 @@ Os testes verificam:
 
 Isso demonstra a limitação fundamental do perceptron para problemas **não linearmente separáveis**.
 
-# Autor
-
-**Natam Leão Ferreira**
+* **Autor:** Natam Leão Ferreira
+* **Data de conclusão:** 19/03/2026
