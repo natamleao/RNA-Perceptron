@@ -1,4 +1,4 @@
-# Perceptron Neural Network Implementation
+# Perceptron Neural Network
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Pytest](https://img.shields.io/badge/Tests-pytest-green)
@@ -99,25 +99,26 @@ Como os dados não são linearmente separáveis, pontos verdes são corretos e v
 RNA-Perceptron/
 │
 ├── data/
-│ ├── raw/ # datasets gerados
-│ └── test/ # datasets usados nos testes
+│ ├── raw/            # datasets gerados
+│ └── test/           # datasets usados nos testes
 │
-├── scripts/ # scripts para execução do projeto
+├── scripts/          # scripts para execução do projeto
 │
-├── src/ # código-fonte principal
-│ ├── config/ # configurações do perceptron
-│ ├── datasets/ # geração e manipulação de datasets
-│ ├── helpers/ # funções auxiliares
-│ ├── models/ # implementação do perceptron
-│ ├── prediction/ # lógica de predição
-│ ├── preprocessing/# normalização e preparação dos dados
-│ ├── training/ # pipeline de treinamento
-│ └── visualization/# visualização da fronteira de decisão
+├── src/              # código-fonte principal
+│ ├── config/         # configurações do perceptron
+│ ├── datasets/       # geração e manipulação de datasets
+│ ├── helpers/        # funções auxiliares
+│ ├── models/         # implementação do perceptron
+│ ├── prediction/     # lógica de predição
+│ ├── preprocessing/  # normalização e preparação dos dados
+│ ├── training/       # pipeline de treinamento
+│ └── visualization/  # visualização da fronteira de decisão
 │
-├── tests/ # testes automatizados (pytest)
+├── tests/            # testes automatizados (pytest)
 │
-├── requirements.txt # dependências do projeto
-└── README.md
+├── LICENSE           # Licença do projeto
+├── requirements.txt  # dependências do projeto
+└── README.md         # Documentação do projeto
 ```
 
 > [!IMPORTANT]
