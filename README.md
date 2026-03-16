@@ -127,8 +127,8 @@ RNA-Perceptron/
 Clone o repositório:
 
 ```
-git clone git@github.com:natamleao/RNA-Perceptron.git
-cd RNA-Perceptron
+git git@github.com:natamleao/Perceptron-Neural-Network.git
+cd Perceptron-Neural-Network
 
 ```
 Crie um ambiente virtual:
