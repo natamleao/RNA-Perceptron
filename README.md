@@ -96,7 +96,7 @@ Como os dados não são linearmente separáveis, pontos verdes são corretos e v
 ## Estrutura do projeto
 
 ```
-RNA-Perceptron/
+Perceptron-Neural-Network/
 │
 ├── data/
 │ ├── raw/            # datasets gerados
