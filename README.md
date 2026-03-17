@@ -116,9 +116,9 @@ RNA-Perceptron/
 │
 ├── tests/            # testes automatizados (pytest)
 │
-├── LICENSE           # Licença do projeto
 ├── requirements.txt  # dependências do projeto
-└── README.md         # Documentação do projeto
+├── README.md         # Documentação do projeto
+└── LICENSE           # Licença do projeto
 ```
 
 > [!IMPORTANT]
